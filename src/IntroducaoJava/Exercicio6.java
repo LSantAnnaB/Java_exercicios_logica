@@ -1,4 +1,4 @@
-package PrimeiraAula;
+package IntroducaoJava;
 
 import java.util.Scanner;
 

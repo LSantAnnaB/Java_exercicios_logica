@@ -1,4 +1,4 @@
-package PrimeiraAula;
+package IntroducaoJava;
 
 
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class Exercicio2 {
 
     public static void main(String[] args) {
         Scanner receba = new Scanner(System.in);
-        int duracao_evento, minutos, segundos;
+        int duracao_evento, minutos;
         float dias, horas;
 
         System.out.println("Determine o tempo em segundos que dura o evento");
