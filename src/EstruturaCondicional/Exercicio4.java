@@ -1,4 +1,4 @@
-package LacosRepeticao;
+package EstruturaCondicional;
 
 import java.util.Scanner;
 
