@@ -2,13 +2,11 @@ package RevisaoDeLogica;
 
 import java.util.Random;
 import java.util.Scanner;
-import java.lang.Math;
 
 public class JogoDeAzar {
 
     public static void main(String[] args) {
         Scanner receba = new Scanner(System.in);
-
 
         int options = 0;
         int saldo = 100;
@@ -18,14 +16,14 @@ public class JogoDeAzar {
         String local,resposta ;
 
 
-        System.out.println("Bem vindo ao jogo dos números" +
-                "\n" +
-                "\n Digite seu nome para iniciarmos ");
+        System.out.println("Bem vindo ao jogo dos números" + "\n" + "\n Digite seu nome para iniciarmos ");
         nome = receba.next();
 
         System.out.println("Olá, " + nome + ", a partir de agora você receberá as instruções para jogo !!!");
+
         System.out.println("Antes de começarmos, por favor, " + nome + ", confirme sua idade");
         idade = receba.nextInt();
+
         if (idade < 18) {
             System.out.println("Você não possui idade para jogar jogos de azar");
             System.out.println("É necessário ser maior de 18 anos para jogar ");
@@ -35,8 +33,9 @@ public class JogoDeAzar {
         }
         System.out.println("Informe seu país");
         local=receba.next();
-        if (local.equals("Brasil") || local.equals("brasil") || local.equals("brazil")
-                || local.equals("Brazil")) {
+
+        if (local.equals("Brasil") || local.equals("brasil") || local.equals("brazil") || local.equals("Brazil")) {
+
             System.out.println("Você está ciente que jogos de azar não são permitidos no Brasil ?" +
                     "\n Você deseja continuar, " + nome + "?");
             System.out.println("digite sim ou não");
@@ -51,6 +50,7 @@ public class JogoDeAzar {
         System.out.println("Deseja saber as regras do jogo??");
         System.out.println("Digite sim ou não");
         resposta2= receba.next();
+
         if (resposta2.equals("sim")){
             System.out.println("" +
                     "" +
